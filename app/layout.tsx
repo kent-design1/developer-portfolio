@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat } from 'next/font/google';
 import "./globals.css";
 import React from "react";
+import {ShootingStars} from "@/components/ui/shootingstars";
+import {StarsBackground} from "@/components/ui/shootingstarsBackground";
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -21,11 +23,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} antialiased`}
-      >
+    <body
+        className={`${montserrat.variable} antialiased bg-black`}
+    >
+    <div className="fixed inset-0 z-0">
+        <StarsBackground className="w-full h-full"/>
+        <ShootingStars className="w-full h-full"/>
+    </div>
+    <div className="relative z-10">
         {children}
-      </body>
+    </div>
+    </body>
     </html>
   );
 }
