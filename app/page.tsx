@@ -3,8 +3,8 @@ import {FloatingNavDemo} from "@/components/navbar";
 import React from "react";
 import {About} from "@/components/about";
 import {Services} from "@/components/services";
-import {Graphics} from "@/components/graphics";
 import {Projects} from "@/components/Projects";
+import {Exhibit} from "@/components/graphics";
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         <FloatingNavDemo/>
         <About />
         <Services />
-        <Graphics />
+        <Exhibit/>
         <Projects />
     </div>
   );

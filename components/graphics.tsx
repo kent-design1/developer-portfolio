@@ -1,10 +1,10 @@
-"use client"
+import {BentoGridExp} from "@/components/ui/bento";
 
-import { useEffect,useState, useRef } from "react"
-import Image from "next/image"
 
-export const Graphics = () => {
+export const Exhibit = () => {
     return (
-        <></>
+        <div>
+        <BentoGridExp/>
+        </div>
     );
 };
