@@ -5,6 +5,10 @@ import {About} from "@/components/about";
 import {Services} from "@/components/services";
 import {Projects} from "@/components/Projects";
 import {Exhibit} from "@/components/graphics";
+import {Testimonial} from "@/components/testimonial";
+import {Blog} from "@/components/blog";
+import Footer from "@/components/footer";
+import {Contact} from "@/components/contact";
 
 
 export default function Home() {
@@ -17,6 +21,10 @@ export default function Home() {
         <Services />
         <Exhibit/>
         <Projects />
+        <Testimonial />
+        <Blog />
+        <Contact />
+        <Footer />
     </div>
   );
 }

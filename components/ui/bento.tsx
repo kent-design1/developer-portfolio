@@ -153,7 +153,7 @@ const items = [
             layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
+            className="rounded-xl overflow-hidden object-contain bg-white"
         />),
         icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     },

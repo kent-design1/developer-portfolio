@@ -1,5 +1,5 @@
 import web from "./web.png"
-import mob from "./mob.png"
+import mob from "./mob.jpg"
 import graphic from "./graphic.jpg"
 import fullstack from "./fullstack.jpg"
 import d3 from "./d3.jpg"
