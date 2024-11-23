@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bf44e6-7858-48c9-b2a2-b8ad838d0a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/assets/projects/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/sectionheader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/graphics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/graphics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/testimonial.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/testimonial.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/Character.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/Character.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/bento.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/bento.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/projectsCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/projectsCards.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732059600612</updated>
       <workItem from="1732059601616" duration="11301000" />
-      <workItem from="1732115527154" duration="59091000" />
+      <workItem from="1732115527154" duration="63354000" />
     </task>
     <servers />
   </component>
