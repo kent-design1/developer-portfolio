@@ -2,7 +2,6 @@ import {Hero} from "@/components/hero";
 import {FloatingNavDemo} from "@/components/navbar";
 import React from "react";
 import {About} from "@/components/about";
-import {Services} from "@/components/services";
 import {Projects} from "@/components/Projects";
 import {Exhibit} from "@/components/graphics";
 import {Testimonial} from "@/components/testimonial";
@@ -21,7 +20,6 @@ export default function Home() {
         <FloatingNavDemo/>
         <MovingCarousel />
         <About />
-        <Services />
         <Exhibit/>
         <Projects />
         <Testimonial />

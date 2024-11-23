@@ -72,7 +72,7 @@ export const BentoGridItem = ({
 
 export const BentoGridExp = () => {
     return (
-        <BentoGrid className="max-w-4xl mx-auto">
+        <BentoGrid className=" mx-auto">
             {items.map((item, i) => (
                 <BentoGridItem
                     key={i}
@@ -88,9 +88,7 @@ export const BentoGridExp = () => {
 };
 
 
-const Skeleton = () => (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-);
+
 const items = [
     {
         title: "Crafting Digital Masterpieces",

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import SectionHeader from "@/components/ui/sectionheader";
 
 export const WobbleCard = ({
                                children,
@@ -88,7 +89,12 @@ const Noise = () => {
 
 export function Blog() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full padding">
+        <section className="flex flex-col pb-[5rem] font-bold padding">
+            <SectionHeader
+                title="Blog & Beyond."/>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mx-auto w-full ">
+
             <WobbleCard
                 containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
                 className=""
@@ -138,5 +144,6 @@ export function Blog() {
                 />
             </WobbleCard>
         </div>
+        </section>
     );
 }

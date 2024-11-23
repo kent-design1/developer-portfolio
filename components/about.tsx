@@ -1,74 +1,48 @@
 "use client";
-import { useEffect } from "react";
-import { motion, stagger, useAnimate } from "framer-motion";
-import { cn } from "@/lib/utils";
 
-export const TextGenerateEffect = ({
-                                       words,
-                                       className,
-                                       filter = true,
-                                       duration = 0.5,
-                                   }: {
-    words: string;
-    className?: string;
-    filter?: boolean;
-    duration?: number;
-}) => {
-    const [scope, animate] = useAnimate();
-    let wordsArray = words.split(" ");
-    useEffect(() => {
-        animate(
-            "span",
-            {
-                opacity: 1,
-                filter: filter ? "blur(0px)" : "none",
-            },
-            {
-                duration: duration ? duration : 1,
-                delay: stagger(0.2),
-            }
-        );
-    }, [scope.current]);
+import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import "../app/globals.css";
+import Paragraph from "@/components/ui/Character";
+import SectionHeader from "@/components/ui/sectionheader";
+// Adjust the path as needed
 
-    const renderWords = () => {
-        return (
-            <motion.div ref={scope}>
-                {wordsArray.map((word, idx) => {
-                    return (
-                        <motion.span
-                            key={word + idx}
-                            className="dark:text-white text-black opacity-0"
-                            style={{
-                                filter: filter ? "blur(10px)" : "none",
-                            }}
-                        >
-                            {word}{" "}
-                        </motion.span>
-                    );
-                })}
-            </motion.div>
-        );
-    };
-
-    return (
-        <div className={cn("font-bold", className)}>
-            <div className="mt-4">
-                <div className=" dark:text-white text-black lg:text-6xl text-2xl  leading-snug tracking-wide">
-                    {renderWords()}
-                </div>
-            </div>
-        </div>
-    );
-};
-
-const words = `A passionate full-stack developer with a creative flair for graphic design, 3D design and photography. With a keen eye for detail and a love for problem-solving, thriving in the dynamic world of web development, where innovation meets functionality. 
-`;
-
+const paragraph =
+    "A passionate full-stack developer with a creative flair for graphic design, 3D design and photography. With a keen eye for detail and a love for problem-solving, thriving in the dynamic world of web development, where innovation meets functionality.";
 
 export const About = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const aboutSection = document.getElementById("about");
+            if (
+                aboutSection &&
+                !isVisible &&
+                aboutSection.getBoundingClientRect().top <
+                window.innerHeight / 2
+            ) {
+                setIsVisible(true);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [isVisible]);
+
     return (
-        <div className="flex min-h-screen">
-        <TextGenerateEffect words={words} />
+        <div className="padding flex flex-col" id="about">
+            <SectionHeader
+                title="About Us."/>
+            <div className=" flex flex-col pb-[5rem] font-bold">
+                <motion.div
+                    initial={{ opacity: 0, x: 100 }}
+                    animate={isVisible ? { opacity: 1, x: 0 } : {}}
+                    transition={{ duration: 0.9 }}
+                >
+                    <Paragraph paragraph={paragraph} />
+                </motion.div>
+            </div>
         </div>
     );
 };
