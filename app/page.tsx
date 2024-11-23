@@ -9,6 +9,8 @@ import {Testimonial} from "@/components/testimonial";
 import {Blog} from "@/components/blog";
 import Footer from "@/components/footer";
 import {Contact} from "@/components/contact";
+import {MovingCarousel} from "@/components/ui/movingCarousel";
+
 
 
 export default function Home() {
@@ -17,6 +19,7 @@ export default function Home() {
 
         <Hero />
         <FloatingNavDemo/>
+        <MovingCarousel />
         <About />
         <Services />
         <Exhibit/>

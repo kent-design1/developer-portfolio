@@ -73,7 +73,7 @@ export const FlipWords = ({
                             delay: wordIndex * 0.3,
                             duration: 0.3,
                         }}
-                        className="inline-block whitespace-nowrap text-white"
+                        className="inline-block whitespace-nowrap text-blue-500"
                     >
                         {word.split("").map((letter, letterIndex) => (
                             <motion.span
@@ -82,7 +82,7 @@ export const FlipWords = ({
                                 animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                                 transition={{
                                     delay: wordIndex * 0.3 + letterIndex * 0.05,
-                                    duration: 0.2,
+                                    duration: 1.2,
                                 }}
                                 className="inline-block"
                             >
@@ -99,13 +99,14 @@ export const FlipWords = ({
 
 
 export function FlipWordsDemo() {
-    const words = ["Innovation", "Imagination", "Ingenuity", "Inventiveness", "Creativity"];
+    const words = ["Innovation", "Imagination", "Creativity"];
 
     return (
-        <div className="h-[40rem] flex justify-center items-center px-4">
-            <div className="lg:text-[3.3rem] text-[2rem] mx-auto font-black text-neutral-600 dark:text-neutral-400 min-w-lg">
+        <div className=" flex justify-center items-center  padding-y">
+            <div
+                className="lg:text-[4.3rem] text-[2rem] mx-auto font-black text-neutral-500 dark:text-neutral-400 min-w-lg">
                 Discover a World Where Code Meets
-                <FlipWords words={words} /> <br />
+                <br/> <FlipWords words={words}/> <br/>
             </div>
         </div>
     );

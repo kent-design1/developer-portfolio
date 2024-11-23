@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bf44e6-7858-48c9-b2a2-b8ad838d0a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/assets/icons/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/assets/testi/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/blog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/testimonial.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ui/projectsCards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-outside-click.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/assets/tech/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/movingCarousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/fullstack.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/dez/fullstack.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/game.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/dez/game.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/assets/dez/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/dez/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/assets/dez/mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/bento.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/bento.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/sol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/flashingtext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/flashingtext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732059600612</updated>
       <workItem from="1732059601616" duration="11301000" />
-      <workItem from="1732115527154" duration="34774000" />
+      <workItem from="1732115527154" duration="52178000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
 import React from "react";
+import {ContactUsButton} from "@/components/ui/button";
 
 
 export const Contact = () => {
@@ -19,8 +20,9 @@ export const Contact = () => {
             </div>
 
             <div className="flex">
-                <p className="text-white">Button</p>
+                <ContactUsButton/>
             </div>
+
         </section>
             );
             };
