@@ -41,37 +41,33 @@ const DummyContent = () => {
 
 const data = [
     {
-        category: "Web Dev.",
+        title: "Web Dev.",
         src: screen5,
         content: <DummyContent />,
     },
     {
-        category: "Mobile Dev.",
+        title: "Mobile Dev.",
         src: Ecommerce,
         content: <DummyContent />,
     },
     {
-        category: "Product",
-        title: "Launching the new Apple Vision Pro.",
+        title: "Web Dev.",
         src: screen8,
         content: <DummyContent />,
     },
 
     {
-        category: "Product",
-        title: "Maps for your iPhone 15 Pro Max.",
+        title: "Fullstack Dev.",
         src: gym,
         content: <DummyContent />,
     },
     {
-        category: "iOS",
-        title: "Photography just got better.",
+        title: "Mobile Dev.",
         src: JobFinder,
         content: <DummyContent />,
     },
     {
-        category: "Hiring",
-        title: "Hiring for a Staff Software Engineer",
+        title: "Fullstack Dev.",
         src: Eccorm,
         content: <DummyContent />,
     },

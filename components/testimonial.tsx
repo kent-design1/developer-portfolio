@@ -14,23 +14,23 @@ interface Testimonial {
 const testimonials = [
     {
         quote:
-            "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-        name: "Sarah Chen",
-        designation: "Product Manager at TechFlow",
+            "Je recommande vivement Kenneth pour des projets exceptionnels d'art en 3D et de conception UI en raison de sa créativité remarquable, de son souci du détail, de ses compétences techniques et de ses capacités de collaboration professionnelles, ce qui en fait un atout précieux pour toute équipe.",
+        name: "Latifa Qatrani",
+        designation: "Industrial Designer at DM Surfaces",
         src: lato.src,
     },
     {
         quote:
-            "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-        name: "Michael Rodriguez",
-        designation: "CTO at InnovateSphere",
+            "Kent is an excellent team player in my view. We worked in the same unit as a team and he was always open to everyone’s opinion and very collaborative. He’s very smart too.",
+        name: "Modesta Aziire",
+        designation: "Advocate at Ghana Commodity Exchange",
         src: modesta.src,
     },
     {
         quote:
-            "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-        name: "Emily Watson",
-        designation: "Operations Director at CloudScale",
+            "From our school days, as well as our interaction and project meetings, I’ve gotten to know him as a highly skilled and passionate data mining specialist with a knack for programming and graphic design.",
+        name: "Mary Immaculata ",
+        designation: "Frontend Development at Waltergates Ghana Limited",
         src: mary.src,
     },
 ];

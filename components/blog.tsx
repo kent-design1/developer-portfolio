@@ -123,6 +123,13 @@ export function Blog() {
                 <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
                     If someone yells “stop!”, goes limp, or taps out, the fight is over.
                 </p>
+                <Image
+                    src="/linear.webp"
+                    width={500}
+                    height={500}
+                    alt="linear demo image"
+                    className="absolute -right-4 lg:-right-[40%] grayscale filter -bottom-10 object-contain rounded-2xl"
+                />
             </WobbleCard>
             <WobbleCard containerClassName="col-span-1 lg:col-span-3 bg-blue-900 min-h-[500px] lg:min-h-[600px] xl:min-h-[300px]">
                 <div className="max-w-sm">

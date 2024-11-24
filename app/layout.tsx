@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import {ShootingStars} from "@/components/ui/shootingstars";
 import {StarsBackground} from "@/components/ui/shootingstarsBackground";
+import {BackgroundBeamsDemo} from "@/components/ui/backGround";
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -26,9 +27,10 @@ export default function RootLayout({
     <body
         className={`${montserrat.variable} antialiased bg-black`}
     >
-    <div className="fixed inset-0 z-0">
+    <div className="fixed inset-0 z-0 w-full h-full ">
         <StarsBackground className="w-full h-full"/>
-        <ShootingStars className="w-full h-full"/>
+        {/*<ShootingStars className="w-full h-full"/>*/}
+        {/*<BackgroundBeamsDemo />*/}
     </div>
     <div className="relative z-10">
         {children}
