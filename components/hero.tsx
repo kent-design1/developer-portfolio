@@ -5,6 +5,8 @@ import "../app/globals.css";
 import React from "react";
 import {Astronaut} from "@/components/assets/dez";
 import {ContactUsButton} from "@/components/ui/button";
+import { motion } from "framer-motion";
+import {bounce} from "@/components/Projects";
 
 
 export function Hero() {
@@ -18,9 +20,15 @@ export function Hero() {
                     <ContactUsButton/>
                 </div>
             </div>
-            <div className="flex w-full justify-end items-end">
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 1}}
+                variants={bounce}
+                className="flex w-full justify-end items-end">
                 <Image alt="Astronaut"  width={680} height={680}  src={Astronaut}  className="object-cover" />
-            </div>
+            </motion.div>
         </div>
     );
 }

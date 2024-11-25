@@ -4,7 +4,20 @@ import Image from "next/image";
 import React from "react";
 import {Carousel, Card} from "@/components/ui/projectsCards";
 import SectionHeader from "@/components/ui/sectionheader";
-import {Eccorm, Ecommerce, gym, JobFinder, screen4, screen5, screen8} from "@/components/assets/projects";
+import {
+    Branding,
+    CuteApp,
+    Eccorm,
+    Ecommerce,
+    gym,
+    JobFinder,
+    screen5,
+    screen7,
+    screen8,
+    sol
+} from "@/components/assets/projects";
+import {graphic, recentpro} from "@/components/assets/dez";
+import {motion, Variants} from "framer-motion";
 
 
 const DummyContent = () => {
@@ -47,7 +60,7 @@ const data = [
     },
     {
         title: "Mobile Dev.",
-        src: Ecommerce,
+        src: screen7,
         content: <DummyContent />,
     },
     {
@@ -66,11 +79,7 @@ const data = [
         src: JobFinder,
         content: <DummyContent />,
     },
-    {
-        title: "Fullstack Dev.",
-        src: Eccorm,
-        content: <DummyContent />,
-    },
+
 ];
 
 
@@ -87,6 +96,154 @@ export const Projects = () => {
                 title="Recent Projects."/>
             </div>
             <Carousel items={cards}/>
+
+            <Inprogress />
         </div>
+    );
+};
+
+
+export const slideInFromLeft = {
+    hidden: { opacity: 0, x: -100 },
+    visible: { opacity: 1, x: 0 },
+};
+
+export const slideInFromRight = {
+    hidden: { opacity: 0, x: 100 },
+    visible: { opacity: 1, x: 0 },
+};
+
+export const bounce: Variants = {
+    hidden: { y: 100 },
+    visible: {
+        y: 0,
+        transition: {
+            type: 'spring',
+            stiffness: 100,
+            damping: 10,
+        },
+    },
+};
+
+
+export const Inprogress = () => {
+    return (
+        <>
+            <div className="mt-36">
+                <SectionHeader
+                    title="Projects In Progress."/>
+            </div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                variants={bounce}
+                className="rounded-2xl bg-neutral-900 overflow-hidden relative flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                <Image src={recentpro} alt="Sol" className="w-full h-full object-cover"/>
+                <div
+                    className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
+                    <h2 className="text-xl font-semibold">Smart Rehab</h2>
+                    <p className="mt-2">
+                        A smart rehabilitation system to help patients with spine injuries recover faster.
+                    </p>
+                </div>
+            </motion.div>
+
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                variants={bounce}
+                className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
+                <Image src={Ecommerce} alt="Sol" className="w-full h-full object-cover"/>
+                <div
+                    className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
+                    <h2 className="text-xl font-semibold">TradeMaster AI</h2>
+                    <p className="mt-2">
+                        An intelligent trading platform that leverages advanced artificial intelligence to analyze market trends.
+                    </p>
+                </div>
+            </motion.div>
+
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                variants={bounce}
+                className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
+                <Image src={Eccorm} alt="Sol" className="w-full h-full object-cover"/>
+                <div
+                    className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
+                    <h2 className="text-xl font-semibold">CarConnect</h2>
+                    <p className="mt-2">A trusted marketplace for buying and selling vehicles.</p>
+                </div>
+            </motion.div>
+
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                transition={{ duration: 1 }}
+                variants={bounce}
+                className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
+                <Image src={CuteApp} alt="Sol" className="w-full h-full object-cover"/>
+                <div
+                    className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
+                    <h2 className="text-xl font-semibold">BuyNest</h2>
+                    <p className="mt-2">An Ecommerce platform that brings your favorite products right to your doorstep.</p>
+                </div>
+            </motion.div>
+
+            <div className="grid grid-cols-1  lg:grid-cols-6 gap-8 items-center justify-center mt-10 lg:mt-40">
+                <motion.div
+                    variants={slideInFromLeft}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5 }}
+                    className="sm:h-80  md:h-96  lg:h-[45rem]  2xl:h-[50rem]  rounded-2xl w-full lg:col-span-4 overflow-hidden relative">
+                    <Image src={Branding} alt="Sol" className="w-full h-full object-cover"/>
+                    <div
+                        className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
+                        <h2 className="text-xl font-semibold">Flavor Haven</h2>
+                        <p className="mt-2">A culinary sanctuary that offers a fusion of global tastes.</p>
+                    </div>
+                </motion.div>
+                <div className="grid lg:col-span-2 gap-y-8 sm:h-80  md:h-96  lg:h-[45rem]  2xl:h-[50rem]">
+                    <motion.div
+                        variants={slideInFromRight}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5 }}
+                        className="rounded-2xl bg-neutral-900 overflow-hidden relative">
+                        <Image src={sol} alt="Sol" className="w-full h-full object-cover"/>
+                        <div
+                            className="bg-black bg-opacity-80 text-white p-4 rounded-sm w-full lg:absolute bottom-0 left-0  lg:mt-0 lg:mb-0">
+                            <h2 className="text-xl font-semibold">Nakoowa</h2>
+                            <p className="mt-2">Branding Nakoowa cream that illuminate your natural glow.</p>
+                        </div>
+                    </motion.div>
+                    <motion.div
+                        variants={slideInFromRight}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.5 }}
+                        className="rounded-2xl bg-neutral-900 overflow-hidden relative">
+                        <Image src={graphic} alt="Sol" className="w-full h-full object-cover"/>
+                        <div
+                            className="bg-black bg-opacity-80 text-white p-4 rounded-sm w-full lg:absolute bottom-0 left-0  lg:mt-0 lg:mb-0">
+                            <h2 className="text-xl font-semibold">Nakoowa</h2>
+                            <p className="mt-2">Carry Confidence with Nakoowa Bags.</p>
+                        </div>
+                    </motion.div>
+                </div>
+            </div>
+
+        </>
     );
 };

@@ -10,4 +10,6 @@ import Graph3 from "./graph3.jpg"
 import  Graph2 from "./graph2.jpg"
 import Astronaut from "./astronaut.png"
 
-export {web, mob, fullstack, d3, graphic, recentpro, game, d3second, Graph3, Graph2, Astronaut}
+
+export {web, mob, fullstack, d3,
+    graphic, recentpro, game, d3second, Graph3, Graph2, Astronaut}

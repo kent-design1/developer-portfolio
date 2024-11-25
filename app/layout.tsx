@@ -29,7 +29,7 @@ export default function RootLayout({
     >
     <div className="fixed inset-0 z-0 w-full h-full ">
         <StarsBackground className="w-full h-full"/>
-        {/*<ShootingStars className="w-full h-full"/>*/}
+        <ShootingStars className="w-full h-full"/>
         {/*<BackgroundBeamsDemo />*/}
     </div>
     <div className="relative z-10">

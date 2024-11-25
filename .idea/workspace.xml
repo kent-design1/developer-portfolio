@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97bf44e6-7858-48c9-b2a2-b8ad838d0a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/ui/backGround.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/assets/blog/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/dez/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/dez/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/Eccorm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/Eccorm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/Ecommerce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/Ecommerce.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/JobFinder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/gym.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/gym.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/screen5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/screen5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/screen7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/screen7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/assets/projects/screen8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/components/assets/projects/screen8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/testimonial.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/testimonial.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/graphics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/graphics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/bento.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/bento.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/projectsCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/projectsCards.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +93,7 @@
       <updated>1732059600612</updated>
       <workItem from="1732059601616" duration="11301000" />
       <workItem from="1732115527154" duration="63354000" />
-      <workItem from="1732398425761" duration="6324000" />
+      <workItem from="1732398425761" duration="34890000" />
     </task>
     <servers />
   </component>

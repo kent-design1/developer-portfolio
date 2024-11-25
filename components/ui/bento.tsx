@@ -24,7 +24,7 @@ export const BentoGrid = ({
     return (
         <div
             className={cn(
-                "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+                "grid md:auto-rows-[18rem]. h-[10re] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
                 className
             )}
         >
@@ -90,19 +90,7 @@ export const BentoGridExp = () => {
 
 
 const items = [
-    {
-        title: "Crafting Digital Masterpieces",
-        description: "Crafting immersive digital experiences that captivate and engage.",
-        header: (<Image
-            src={web}
-            alt="Crafting Digital Masterpieces"
-            layout="responsive"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
-        />),
-        icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    },
+
     {
         title: "Engineering Seamless Solutions",
         description: "Building seamless solutions from front-end aesthetics to back-end robustness.",
@@ -130,6 +118,19 @@ const items = [
         icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
     {
+        title: "Designing Interactive Realms",
+        description: "Creating interactive worlds that entertain and challenge players.",
+        header: (<Image
+            src={game}
+            alt="Crafting Digital Masterpieces"
+            layout="responsive"
+            width={500} // Adjust width as needed
+            height={300} // Adjust height as needed
+            className="rounded-xl overflow-hidden object-cover"
+        />),
+        icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+    },
+    {
         title: "Animating Ideas Vividly",
         description: "Bringing concepts to life through dynamic and realistic 3D modeling.",
         header: (<Image
@@ -155,32 +156,45 @@ const items = [
         />),
         icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     },
-    {
-        title: "Advancing Smart Rehabilitation",
-        description: "Developing innovative solutions to enhance recovery for spinal injury patients.",
-        header: (<Image
-            src={recentpro}
-            alt="Advancing Smart Rehabilitation"
-            layout="responsive"
-            width={500} // Adjust width as needed
-            height={300}
-            objectFit={"contain"}// Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
-        />),
-        icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    },
-    {
-        title: "Designing Interactive Realms",
-        description: "Creating interactive worlds that entertain and challenge players.",
-        header: (<Image
-            src={game}
-            alt="Crafting Digital Masterpieces"
-            layout="responsive"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
-        />),
-        icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-    },
+    // {
+    //     title: "Advancing Smart Rehabilitation",
+    //     description: "Developing innovative solutions to enhance recovery for spinal injury patients.",
+    //     header: (<Image
+    //         src={recentpro}
+    //         alt="Advancing Smart Rehabilitation"
+    //         layout="responsive"
+    //         width={500} // Adjust width as needed
+    //         height={300}
+    //         objectFit={"contain"}// Adjust height as needed
+    //         className="rounded-xl overflow-hidden object-cover"
+    //     />),
+    //     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+    // },
+    // {
+    //     title: "Crafting Digital Masterpieces",
+    //     description: "Crafting immersive digital experiences that captivate and engage.",
+    //     header: (<Image
+    //         src={web}
+    //         alt="Crafting Digital Masterpieces"
+    //         layout="responsive"
+    //         width={500} // Adjust width as needed
+    //         height={300} // Adjust height as needed
+    //         className="rounded-xl overflow-hidden object-cover"
+    //     />),
+    //     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    // },
+    // {
+    //     title: "Designing Interactive Realms",
+    //     description: "Creating interactive worlds that entertain and challenge players.",
+    //     header: (<Image
+    //         src={game}
+    //         alt="Crafting Digital Masterpieces"
+    //         layout="responsive"
+    //         width={500} // Adjust width as needed
+    //         height={300} // Adjust height as needed
+    //         className="rounded-xl overflow-hidden object-cover"
+    //     />),
+    //     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+    // },
 
 ];
