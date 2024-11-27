@@ -1,7 +1,5 @@
 import {BentoGridExp} from "@/components/ui/bento";
 import SectionHeader from "@/components/ui/sectionheader";
-import { motion } from "framer-motion";
-import {bounce} from "@/components/Projects";
 
 
 export const Exhibit = () => {

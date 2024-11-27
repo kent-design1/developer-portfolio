@@ -87,7 +87,7 @@ const data = [
 
 export const Projects = () => {
     const cards = data.map((card, index) => (
-        <Card key={card.src} card={card} index={index} />
+        <Card key={index} card={card} index={index} />
     ));
     return (
         <div className="w-full h-full py-20 flex flex-col padding">

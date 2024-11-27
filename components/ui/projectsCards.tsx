@@ -13,7 +13,7 @@ import {
 } from "@tabler/icons-react";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import Image, { ImageProps } from "next/image";
+import Image, {ImageProps, StaticImageData} from "next/image";
 import { useOutsideClick } from "@/hooks/use-outside-click";
 
 interface CarouselProps {
@@ -22,10 +22,10 @@ interface CarouselProps {
 }
 
 type Card = {
-    src: string;
+    src: StaticImageData;
     title: string;
-    category: string;
-    content: React.ReactNode;
+    category?: string;
+    content?: React.ReactNode;
 };
 
 export const CarouselContext = createContext<{
@@ -239,7 +239,7 @@ export const Card = ({
             <motion.button
                 layoutId={layout ? `card-${card.title}` : undefined}
                 onClick={handleOpen}
-                className=" bg-gray-100 dark:bg-neutral-900 h-60 w-80 md:h-[44rem] lg:w-[72rem]  overflow-hidden flex flex-col items-start justify-start relative z-10"
+                className="rounded-sm bg-gray-100 dark:bg-neutral-900 h-60 w-80 md:h-[44rem] lg:w-[72rem]  overflow-hidden flex flex-col items-start justify-start relative z-10"
             >
                 <div
                     className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-black/50 via-transparent to-transparent z-30 pointer-events-none"/>
