@@ -11,7 +11,7 @@ import {bounce} from "@/components/Projects";
 
 export function Hero() {
     return (
-        <div className="min-h-screen flex md:flex-row flex-col  relative w-full md:justify-center justify-between">
+        <div className="min-h-screen flex md:flex-row flex-col  relative w-full md:justify-center justify-between padding-x">
             <div className="flex flex-col justify-center items-start gap-2 md:pt-0 pt-[4rem]">
                 <FlipWordsDemo/>
                 <p className="text-neutral-300 font-bold md:text-[1.4rem] text-md">Enhance your digital solutions with innovative
@@ -27,7 +27,8 @@ export function Hero() {
                 transition={{ duration: 1}}
                 variants={bounce}
                 className="flex w-full justify-end items-end">
-                <Image alt="Astronaut"  width={680} height={680}  src={Astronaut}  className="object-cover" />
+                <Image alt="Astronaut"  width={680} height={680}
+                       src="https://drive.google.com/uc?id=1SZgNoixm7fCFGsIhRPQu8NjuDmOF2aGO" className="object-cover" />
             </motion.div>
         </div>
     );

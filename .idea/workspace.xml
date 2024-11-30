@@ -7,9 +7,7 @@
     <list default="true" id="97bf44e6-7858-48c9-b2a2-b8ad838d0a02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/graphics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/graphics.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/floatingfeatureNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/floatingfeatureNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ui/projectsCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/projectsCards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
     </list>
@@ -82,7 +80,7 @@
       <updated>1732059600612</updated>
       <workItem from="1732059601616" duration="11301000" />
       <workItem from="1732115527154" duration="63354000" />
-      <workItem from="1732398425761" duration="39213000" />
+      <workItem from="1732398425761" duration="47030000" />
     </task>
     <servers />
   </component>
