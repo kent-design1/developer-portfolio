@@ -5,6 +5,18 @@ import React from "react";
 import {Carousel, Card} from "@/components/ui/projectsCards";
 import SectionHeader from "@/components/ui/sectionheader";
 import {motion, Variants} from "framer-motion";
+import {
+    Branding,
+    CuteApp,
+    Eccorm,
+    Ecommerce,
+    gym,
+    JobFinder,
+    screen5,
+    screen7,
+    screen8, sol
+} from "@/components/assets/projects"
+import {Graph3, recentpro} from "@/components/assets/dez";
 
 
 const DummyContent = () => {
@@ -42,28 +54,28 @@ const DummyContent = () => {
 const data = [
     {
         title: "Web Dev.",
-        src: "https://drive.google.com/uc?id=1EGQLMGY7-eEZwSpJQ8H26FsdA2aWZqUu",
+        src: screen5,
         content: <DummyContent />,
     },
     {
         title: "Mobile Dev.",
-        src: "https://drive.google.com/uc?id=1gfE1rbOLxSMEosygQma2OjtES7D64e3k",
+        src: screen7,
         content: <DummyContent />,
     },
     {
         title: "Web Dev.",
-        src: "https://drive.google.com/uc?id=185O1N1Gu-6X-rhNaZdW7tvK0Kcoq89PN",
+        src: screen8,
         content: <DummyContent />,
     },
 
     {
         title: "Fullstack Dev.",
-        src: "https://drive.google.com/uc?id=1df2Ui-EYO2YImYmzNFttUS8WZZCmnx2K",
+        src: gym,
         content: <DummyContent />,
     },
     {
         title: "Mobile Dev.",
-        src: "https://drive.google.com/uc?id=1TfXiV4zwdkJbHAO4QZdqT8HxH8T6pNgS",
+        src: JobFinder,
         content: <DummyContent />,
     },
 
@@ -127,7 +139,7 @@ export const Inprogress = () => {
                 transition={{ duration: 1 }}
                 variants={bounce}
                 className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
-                <Image src="https://drive.google.com/uc?id=18YiDvL_fth82vMeYuBB6B129zztQOvgx" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
+                <Image src={recentpro} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                 <div
                     className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
                     <h2 className="text-xl font-semibold">Smart Rehab</h2>
@@ -144,7 +156,7 @@ export const Inprogress = () => {
                 transition={{ duration: 1 }}
                 variants={bounce}
                 className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
-                <Image src="https://drive.google.com/uc?id=1BzEoBhbuEYkS3lxa6HPCga89zy4aWpvW" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
+                <Image src={Ecommerce} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                 <div
                     className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
                     <h2 className="text-xl font-semibold">TradeMaster AI</h2>
@@ -161,7 +173,7 @@ export const Inprogress = () => {
                 transition={{ duration: 1 }}
                 variants={bounce}
                 className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
-                <Image src="https://drive.google.com/uc?id=1aj0gCdz9ZYqvaOpz1eBzJJoRnYMtTQVX" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800} />
+                <Image src={Eccorm} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800} />
                 <div
                     className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
                     <h2 className="text-xl font-semibold">CarConnect</h2>
@@ -176,7 +188,7 @@ export const Inprogress = () => {
                 transition={{ duration: 1 }}
                 variants={bounce}
                 className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
-                <Image src="https://drive.google.com/uc?id=1joEEPLEPxbP5rKtXF2YHw3ADXHTQnX4Y" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800} />
+                <Image src={CuteApp} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800} />
                 <div
                     className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
                     <h2 className="text-xl font-semibold">BuyNest</h2>
@@ -192,7 +204,7 @@ export const Inprogress = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5 }}
                     className="sm:h-80  md:h-96  lg:h-[45rem]  2xl:h-[50rem]  rounded-2xl w-full lg:col-span-4 overflow-hidden relative">
-                    <Image src="https://drive.google.com/uc?id=1EaKNk5aHAFQtpcfJyqIwOx8nEWYKHxMQ" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
+                    <Image src={Branding} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                     <div
                         className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">
                         <h2 className="text-xl font-semibold">Flavor Haven</h2>
@@ -207,7 +219,7 @@ export const Inprogress = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                         className="rounded-2xl bg-neutral-900 overflow-hidden relative">
-                        <Image src="https://drive.google.com/uc?id=1JgOaRbs8emYuo4qKmN6Woaxl8bbe5T6B" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
+                        <Image src={sol} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                         <div
                             className="bg-black bg-opacity-80 text-white p-4 rounded-sm w-full lg:absolute bottom-0 left-0  lg:mt-0 lg:mb-0">
                             <h2 className="text-xl font-semibold">Nakoowa</h2>
@@ -221,11 +233,11 @@ export const Inprogress = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
                         className="rounded-2xl bg-neutral-900 overflow-hidden relative">
-                        <Image src="https://drive.google.com/uc?id=1aL21ZLrYkDmwrAXFH1ezAxdBX4EzZyBa" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
+                        <Image src={Graph3} alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                         <div
                             className="bg-black bg-opacity-80 text-white p-4 rounded-sm w-full lg:absolute bottom-0 left-0  lg:mt-0 lg:mb-0">
-                            <h2 className="text-xl font-semibold">Nakoowa</h2>
-                            <p className="mt-2">Carry Confidence with Nakoowa Bags.</p>
+                            <h2 className="text-xl font-semibold">Garnet</h2>
+                            <p className="mt-2">Branding Garnet cream that illuminate your natural glow.</p>
                         </div>
                     </motion.div>
                 </div>

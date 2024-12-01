@@ -97,7 +97,6 @@ const items = [
         header: (<Image
             src={fullstack}
             alt="Crafting Digital Masterpieces"
-            layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
             className="rounded-xl overflow-hidden object-cover"

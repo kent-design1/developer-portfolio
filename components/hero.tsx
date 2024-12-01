@@ -27,7 +27,7 @@ export function Hero() {
                 transition={{ duration: 1}}
                 variants={bounce}
                 className="flex w-full justify-end items-end">
-                <Image alt="Astronaut"  width={680} height={680}
+                <Image alt="Astronaut"  width={680} height={680} priority
                        src={Astronaut} className="object-cover" />
             </motion.div>
         </div>
