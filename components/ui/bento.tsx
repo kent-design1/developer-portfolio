@@ -110,7 +110,6 @@ const items = [
         header: (<Image
             src={mob}
             alt="Crafting Digital Masterpieces"
-            layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
             className="rounded-xl overflow-hidden object-cover"
@@ -123,7 +122,6 @@ const items = [
         header: (<Image
             src={game}
             alt="Crafting Digital Masterpieces"
-            layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
             className="rounded-xl overflow-hidden object-cover"
@@ -136,7 +134,6 @@ const items = [
         header: (<Image
             src={d3}
             alt="Crafting Digital Masterpieces"
-            layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
             className="rounded-xl overflow-hidden object-cover"
@@ -149,7 +146,6 @@ const items = [
         header: (<Image
             src={graphic}
             alt="Crafting Digital Masterpieces"
-            layout="responsive"
             width={500} // Adjust width as needed
             height={300} // Adjust height as needed
             className="rounded-xl overflow-hidden object-contain bg-white"
