@@ -4,14 +4,6 @@ import Image from "next/image";
 import React from "react";
 import {Carousel, Card} from "@/components/ui/projectsCards";
 import SectionHeader from "@/components/ui/sectionheader";
-import {
-    Branding,
-    CuteApp,
-    Eccorm,
-    Ecommerce,
-    sol
-} from "@/components/assets/projects";
-import {graphic, recentpro} from "@/components/assets/dez";
 import {motion, Variants} from "framer-motion";
 
 
@@ -134,7 +126,7 @@ export const Inprogress = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 1 }}
                 variants={bounce}
-                className="rounded-2xl bg-neutral-900 overflow-hidden relative flex flex-col lg:flex-row lg:items-center lg:justify-between">
+                className="rounded-2xl mt-10 lg:mt-40 bg-neutral-900  sm:h-80 sm:w-96 md:h-96 md:w-128 lg:h-[45rem] lg:w-[70rem] 2xl:h-[50rem] 2xl:w-[90rem] overflow-hidden flex flex-col items-start justify-start relative">
                 <Image src="https://drive.google.com/uc?id=18YiDvL_fth82vMeYuBB6B129zztQOvgx" alt="Sol" className="w-full h-full object-cover" width={1800} height={1800}  />
                 <div
                     className="bg-black bg-opacity-80 text-white p-4 rounded-lg max-w-md lg:absolute bottom-0 left-20 lg:ml-4 lg:mt-0 lg:mb-10">

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image"; // Import Image from next.js
 import { FlipWordsDemo } from "@/components/ui/flashingtext";
 import "../app/globals.css";
 import React from "react";
@@ -7,6 +6,7 @@ import {Astronaut} from "@/components/assets/dez";
 import {ContactUsButton} from "@/components/ui/button";
 import { motion } from "framer-motion";
 import {bounce} from "@/components/Projects";
+import Image from "next/image";
 
 
 export function Hero() {
@@ -16,7 +16,7 @@ export function Hero() {
                 <FlipWordsDemo/>
                 <p className="text-neutral-300 font-bold md:text-[1.4rem] text-md">Enhance your digital solutions with innovative
                     designs.</p>
-                <div className="flex justify-center items-center ml-[12rem] py-3">
+                <div className="flex justify-center items-center mx-auto lg:ml-[12rem] py-3">
                     <ContactUsButton/>
                 </div>
             </div>
@@ -28,7 +28,7 @@ export function Hero() {
                 variants={bounce}
                 className="flex w-full justify-end items-end">
                 <Image alt="Astronaut"  width={680} height={680}
-                       src="https://drive.google.com/uc?id=1SZgNoixm7fCFGsIhRPQu8NjuDmOF2aGO" className="object-cover" />
+                       src={Astronaut} className="object-cover" />
             </motion.div>
         </div>
     );
