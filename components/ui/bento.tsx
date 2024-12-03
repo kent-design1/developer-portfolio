@@ -97,9 +97,8 @@ const items = [
         header: (<Image
             src={fullstack}
             alt="Crafting Digital Masterpieces"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
+            fill={false}
+            className="rounded-xl w-full overflow-hidden object-cover"
         />),
         icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     },
@@ -109,9 +108,8 @@ const items = [
         header: (<Image
             src={mob}
             alt="Crafting Digital Masterpieces"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
+            fill={false}
+            className="rounded-xl w-full overflow-hidden object-cover"
         />),
         icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
     },
@@ -121,9 +119,8 @@ const items = [
         header: (<Image
             src={game}
             alt="Crafting Digital Masterpieces"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
+            fill={false}
+            className="rounded-xl w-full overflow-hidden object-cover"
         />),
         icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
     },
@@ -133,9 +130,8 @@ const items = [
         header: (<Image
             src={d3}
             alt="Crafting Digital Masterpieces"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-cover"
+            fill={false}
+            className="rounded-xl w-full overflow-hidden object-cover"
         />),
         icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     },
@@ -145,9 +141,8 @@ const items = [
         header: (<Image
             src={graphic}
             alt="Crafting Digital Masterpieces"
-            width={500} // Adjust width as needed
-            height={300} // Adjust height as needed
-            className="rounded-xl overflow-hidden object-contain bg-white"
+            fill={false}
+            className="rounded-xl w-full overflow-hidden object-cover"
         />),
         icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     },

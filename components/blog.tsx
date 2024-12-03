@@ -164,7 +164,7 @@ export function Blog() {
                                     className="focus:outline-none focus:underline flex items-center mt-4 cursor-pointer text-white hover:text-gray-200 hover:underline"
                                 >
                                     <p className="pr-2 text-sm font-medium leading-none">
-                                        Read More
+                                        Read More: {blog.title}
                                     </p>
                                     <svg
                                         className="fill-stroke"

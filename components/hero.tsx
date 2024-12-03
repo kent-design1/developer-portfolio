@@ -11,10 +11,12 @@ import Image from "next/image";
 
 export function Hero() {
     return (
-        <div className="min-h-screen flex md:flex-row flex-col  relative w-full md:justify-center justify-between padding-x">
+        <div
+            className="min-h-screen flex lg:flex-row flex-col  relative w-full lg:justify-center justify-between padding-x">
             <div className="flex flex-col justify-center items-start gap-2 md:pt-0 pt-[4rem]">
                 <FlipWordsDemo/>
-                <p className="text-neutral-300 font-bold md:text-[1.4rem] text-md">Enhance your digital solutions with innovative
+                <p className="text-neutral-300 font-bold md:text-[1.4rem] text-md">Enhance your digital solutions with
+                    innovative
                     designs.</p>
                 <div className="flex justify-center items-center mx-auto lg:ml-[12rem] py-3">
                     <ContactUsButton/>
@@ -23,12 +25,19 @@ export function Hero() {
             <motion.div
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true }}
-                transition={{ duration: 1}}
+                viewport={{once: true}}
+                transition={{duration: 1}}
                 variants={bounce}
-                className="flex w-full justify-end items-end">
-                <Image alt="Astronaut"  width={680} height={680} priority
-                       src={Astronaut} className="object-cover" />
+                className="flex w-full justify-end items-end relative"
+            >
+
+                <Image
+                    alt="Astronaut"
+                    src={Astronaut}
+                    className="object-cover w-full "
+                    fill={false}
+                    priority
+                />
             </motion.div>
         </div>
     );
