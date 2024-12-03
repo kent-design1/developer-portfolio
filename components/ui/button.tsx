@@ -9,10 +9,12 @@ export const ModalTrigger = ({
                                  children,
                                  className,
                                  onClick,
+                                 ariaLabel,
                              }:{
     children: React.ReactNode;
     className?: string;
-    onClick?: MouseEventHandler<HTMLButtonElement>
+    onClick?: MouseEventHandler<HTMLButtonElement>;
+    ariaLabel?: string;
 }) => {
     return (
         <button
@@ -21,6 +23,7 @@ export const ModalTrigger = ({
                 className
             )}
             onClick={onClick}
+            aria-label={ariaLabel}
         >
             {children}
         </button>
@@ -38,6 +41,7 @@ export function ContactUsButton() {
             <ModalTrigger
                 className="bg-blue-500 text-gray-200 flex justify-center group/modal-btn"
                 onClick={handleClick}
+                ariaLabel="Contact Us"
             >
         <span className="font-bold group-hover/modal-btn:translate-x-40 text-center transition duration-500">
           Contact Us
